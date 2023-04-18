@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+
+}
+
+nav {
+    display: flex;
+    gap: 34px;
+}
+
+a {
+    color: #fff2e7;
+    font-family: 'Sarala', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+main {
+    border-top: 0.1px solid;
+    color: #fff2e7;
+}
+
+.main-section-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.text-div {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.text-div h1 {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+}
+.text-div p{
+    font-family: 'Sarala', sans-serif;
+font-weight: 400;
+font-size: 20px;
+color: #ECD6C4;
+}
+button{
+    width: 185px;
+    height: 67px;
+    border: none;
+    border-radius: 20px;
+    background-color:#ECD6C4;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.main-section-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.text-div2{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    margin-top: 30px;
+    border-top: 0.4px solid;
+padding-top:60px
+}
+.text-div2 h3{
+    font-family: 'Righteous', cursive;
+font-weight: 400;
+font-size: 26px;
+}
+.text-div2 p{
+    font-family: 'Sarala', sans-serif;
+font-size: 17px;
+font-weight: 700;
+}
+footer{
+    padding: 32px;
+    border-top: 0.4px solid;
+    color: #fff2e7;
+    margin-top: 50px;
+}
+.img-footer{
+    display: block;
+    height: 48px;
+    margin: 0  auto;
+    
+}
+button:hover{
+    background-color:aliceblue;
+    cursor: pointer;
+    transition: 0.2ms;
+}
+
